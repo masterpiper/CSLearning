@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "86e74c0ee3a0e059",
+    "type": "split",
+    "children": [
+      {
+        "id": "69c5ceb71aceac37",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Eros/Mindset/Alpha.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b9907ca83303d515",
+    "type": "split",
+    "children": [
+      {
+        "id": "1116f80b24265ddc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed1be89bc27d61c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7ae94605bb030d36",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1c7f3ad2d745aec9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 182
+  },
+  "right": {
+    "id": "cbe87e35f3edc30c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a4e3f615a922d20",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "309b569d31f31375",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Eros/Mindset/Alpha.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b8d0edfe05799efb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Eros/Mindset/Alpha.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cc354080353792ee",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e27073815da5a492",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Eros/Mindset/Alpha.md"
+              }
+            }
+          },
+          {
+            "id": "fbbb56f73952ca4c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "69c5ceb71aceac37",
+  "lastOpenFiles": [
+    "Eros/Mindset/DOM.md",
+    "Eros/Mindset/Alpha.md",
+    "Eros/Mindset/傲娇风趣指南.md",
+    "Ra/资本,价值和信念.md",
+    "Eros/Mindset/The-Love-Master.md",
+    "Ra/Philosophy/Model/情绪管理模型.md",
+    "Eros/Communication_Sex/信念及初代框架.md",
+    "Eros/Communication_Sex/聊天记录.md",
+    "Ra/信念.md",
+    "Ra/Philosophy/Experiment/知识的诅咒.md"
+  ]
+}

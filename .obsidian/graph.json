@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Philosophy/Experiment",
+      "color": {
+        "a": 1,
+        "rgb": 65344
+      }
+    },
+    {
+      "query": "path:Philosophy/The_World",
+      "color": {
+        "a": 1,
+        "rgb": 65531
+      }
+    },
+    {
+      "query": "path:Philosophy/Model",
+      "color": {
+        "a": 1,
+        "rgb": 16772608
+      }
+    },
+    {
+      "query": "file:计划列表",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.54861111111111,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.581349206349206,
+  "repelStrength": 11.2301587301587,
+  "linkStrength": 1,
+  "linkDistance": 178,
+  "scale": 0.7453046609091617,
+  "close": false
+}

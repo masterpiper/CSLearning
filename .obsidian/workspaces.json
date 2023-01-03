@@ -1,0 +1,280 @@
+{
+  "normal": {
+    "main": {
+      "id": "fb1521c8093fdd89",
+      "type": "split",
+      "children": [
+        {
+          "id": "8aabfbb2af4673fe",
+          "type": "leaf",
+          "state": {
+            "type": "markdown",
+            "state": {
+              "file": "实验/数据集记录/痛、快感平衡测试数据记录.md",
+              "mode": "source",
+              "source": false
+            }
+          }
+        }
+      ],
+      "direction": "vertical"
+    },
+    "left": {
+      "id": "96b319b67cce3fd6",
+      "type": "split",
+      "children": [
+        {
+          "id": "69287aced30454a0",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "cf23b97b7fbfaa08",
+              "type": "leaf",
+              "state": {
+                "type": "file-explorer",
+                "state": {}
+              }
+            },
+            {
+              "id": "30a05e1a5bf43983",
+              "type": "leaf",
+              "state": {
+                "type": "search",
+                "state": {
+                  "query": "",
+                  "matchingCase": false,
+                  "explainSearch": false,
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical"
+                }
+              }
+            },
+            {
+              "id": "d2e3378d9ad7bea3",
+              "type": "leaf",
+              "state": {
+                "type": "starred",
+                "state": {}
+              }
+            }
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "width": 300
+    },
+    "right": {
+      "id": "aa40c9fb8bbe8721",
+      "type": "split",
+      "children": [
+        {
+          "id": "e77d85da01de0ddb",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "100bb29258d60af5",
+              "type": "leaf",
+              "state": {
+                "type": "backlink",
+                "state": {
+                  "file": "实验/数据集记录/痛、快感平衡测试数据记录.md",
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              }
+            },
+            {
+              "id": "3bd243a59bc6cc63",
+              "type": "leaf",
+              "state": {
+                "type": "outgoing-link",
+                "state": {
+                  "file": "实验/数据集记录/痛、快感平衡测试数据记录.md",
+                  "linksCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              }
+            },
+            {
+              "id": "ad781f5c22ba232c",
+              "type": "leaf",
+              "state": {
+                "type": "tag",
+                "state": {
+                  "sortOrder": "frequency",
+                  "useHierarchy": false
+                }
+              }
+            },
+            {
+              "id": "3b6517c51e49851c",
+              "type": "leaf",
+              "state": {
+                "type": "outline",
+                "state": {
+                  "file": "实验/数据集记录/痛、快感平衡测试数据记录.md"
+                }
+              }
+            }
+          ],
+          "currentTab": 3
+        }
+      ],
+      "direction": "horizontal",
+      "width": 298.8333435058594
+    },
+    "active": "8aabfbb2af4673fe"
+  },
+  "plan": {
+    "main": {
+      "id": "fb1521c8093fdd89",
+      "type": "split",
+      "children": [
+        {
+          "id": "8aabfbb2af4673fe",
+          "type": "leaf",
+          "state": {
+            "type": "markdown",
+            "state": {
+              "file": "实验/数据集记录/痛、快感平衡测试数据记录.md",
+              "mode": "source",
+              "source": false
+            }
+          }
+        }
+      ],
+      "direction": "vertical"
+    },
+    "left": {
+      "id": "96b319b67cce3fd6",
+      "type": "split",
+      "children": [
+        {
+          "id": "69287aced30454a0",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "cf23b97b7fbfaa08",
+              "type": "leaf",
+              "state": {
+                "type": "file-explorer",
+                "state": {}
+              }
+            },
+            {
+              "id": "30a05e1a5bf43983",
+              "type": "leaf",
+              "state": {
+                "type": "search",
+                "state": {
+                  "query": "",
+                  "matchingCase": false,
+                  "explainSearch": false,
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical"
+                }
+              }
+            },
+            {
+              "id": "d2e3378d9ad7bea3",
+              "type": "leaf",
+              "state": {
+                "type": "starred",
+                "state": {}
+              }
+            }
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "width": 300
+    },
+    "right": {
+      "id": "aa40c9fb8bbe8721",
+      "type": "split",
+      "children": [
+        {
+          "id": "e77d85da01de0ddb",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "100bb29258d60af5",
+              "type": "leaf",
+              "state": {
+                "type": "backlink",
+                "state": {
+                  "file": "实验/数据集记录/痛、快感平衡测试数据记录.md",
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              }
+            },
+            {
+              "id": "3bd243a59bc6cc63",
+              "type": "leaf",
+              "state": {
+                "type": "outgoing-link",
+                "state": {
+                  "file": "实验/数据集记录/痛、快感平衡测试数据记录.md",
+                  "linksCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              }
+            },
+            {
+              "id": "ad781f5c22ba232c",
+              "type": "leaf",
+              "state": {
+                "type": "tag",
+                "state": {
+                  "sortOrder": "frequency",
+                  "useHierarchy": false
+                }
+              }
+            },
+            {
+              "id": "3b6517c51e49851c",
+              "type": "leaf",
+              "state": {
+                "type": "outline",
+                "state": {
+                  "file": "实验/数据集记录/痛、快感平衡测试数据记录.md"
+                }
+              }
+            }
+          ],
+          "currentTab": 3
+        },
+        {
+          "id": "09125f55bb7b37a1",
+          "type": "tabs",
+          "children": [
+            {
+              "id": "a6131442ad232201",
+              "type": "leaf",
+              "state": {
+                "type": "timeline",
+                "state": {}
+              }
+            }
+          ]
+        }
+      ],
+      "direction": "horizontal",
+      "width": 298.8333435058594
+    },
+    "active": "8aabfbb2af4673fe"
+  }
+}
