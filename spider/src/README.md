@@ -10,7 +10,8 @@ response = requests.request()
 # return a response object
 # the method of requests is consistent with HTTP's Request
 # there is a normal frame "requests.reqest(method,url,args);".
-
+# set response's encoding
+response.encoding = 'utf-8'
 page_text = response.text
 # web page's source
 # Struction: 
@@ -56,14 +57,76 @@ header = {
 ### urllib
 
 ## Data Analysis
-Gets the specified content.
+Gets the specified content.(本质就是从HTML文本中找到，爬取资源的URL。
+### 通用解析原理
 - 解析的局部文本内容都会聚焦于标签之间或标签属性中
 ```mermaid
 graph LR;
 step1[Located the label]-->step2[fetch data]
 ```
 ### Regular expression
+[Regular expression test](https://regexone.com/)
+Matching the sources url by using regular expression.
+
+### BS4
+```mermaid
+flowchart LR
+	subgraph Create
+		direction TB
+		r1[create bs4 object]-->r2[load html to object]
+	end
+	subgraph Catch_URL
+		direction TB
+		r3[USING mathod or attr]-->r4[Get URL]
+	end
+	Create-->Catch_URL
+```
+#### Dependent
+```python
+pip install bs4
+pip install lxml
+```
+#### USAGE
+Load
+```python
+# Load HTML
+# Way1
+fp = open("./abc.html",'r','utf-8')
+soup = BeautifulSoup(fp,"lxml")
+# Way2
+text = response.text
+soup = BeautifulSoup(text,"lxml")
+```
+Analysis
+```python
+# return the first tag in html
+soup.tagname
+soup.find('tagname')
+# for example
+# soup.a or soup.find('a')
+# soup.li or soup.find('li')
+# soup.div or soup.find('div')
+# etc.
+
+# class loacted return a string
+soup.find('tagname',class_='classname')
+soup.find('tagname',id_='idname')
+soup.find('tagname',attr_='attrname')
+soup.find_all('tagname') 
+# find_all() return a list which include all of tags that accord with condition.
+
+soup.select("selector(id/class/tag)")
+soup.select(".tang > ul > li > a")[k]
+soup.select(".tang a")
+# Support Levels Located, SPACE means several levels, > means one level
+# return a list which include all of selector's tags.
+soup.select('selector')[k]['attr']
+# get tag's attr
+
+# Get tags content
+soup.tagname.text/string/get_text()
+# string method get tag's direct content
+# text or get_text() get tag's all content
+```
 
 ### XPATH(!!!)
-### BS4
-
