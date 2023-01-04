@@ -32,6 +32,10 @@ re--pull-->mer
 ```
 git config --global user.name "Ze"
 git config --global user.email 1609738019@qq.com
+
+# set porxy
+git config --global https.proxy #on
+git config --global --unset https.proxy #off
 ```
 
 ## 本地操作Workspace&Repository

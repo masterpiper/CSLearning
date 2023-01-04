@@ -57,3 +57,33 @@ Content-Type: the data type when server respond to the client.
 - Symmetric key encryption: The Client formulates the encryption method and sends the decryption method to The Server.
 - Asymmetric key encryption: The Server formulates the encryption method and tell the client. When Client send the message to Server, it must use the encryption method.
 - Certificate-key encryption(HTTPS): 
+
+## Programing
+```python
+url = "www.baidu.com"
+UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54"
+```
+
+### Create Request
+```mermaid
+flowchart TB
+	subgraph Catch_pakage
+		direction LR
+		r1[catch request]-->r2[get UA and URL]
+	end
+	subgraph Create_request
+		direction LR
+		r3[Set Header and UA]
+		r3-->r4[Set HTTP Mothed]
+	end
+	Catch_pakage-->Create_request
+```
+
+```python
+
+```
+### Analysis data
+```mermaid
+flowchart TB
+
+```
