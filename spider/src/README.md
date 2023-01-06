@@ -10,7 +10,7 @@ response = requests.request()
 # return a response object
 # the method of requests is consistent with HTTP's Request
 # there is a normal frame "requests.reqest(method,url,args);".
-# set response's encoding
+# set response's encoding, requests default encoding is "ISO-8859-1"
 response.encoding = 'utf-8'
 page_text = response.text
 # web page's source
@@ -129,4 +129,48 @@ soup.tagname.text/string/get_text()
 # text or get_text() get tag's all content
 ```
 
-### XPATH(!!!)
+### XPATH(RECOMMAND!!)
+```mermaid
+flowchart LR
+	subgraph Instantiation
+		 direction TB
+		 r1[Create etree object]-->r2[Tag located]
+	   end
+```
+Instantiation
+```python
+from lxml import etree
+# Local load
+html_tree = etree.parse(filePath)
+# Web load
+html_tree = etree.HTML(requests.get(url,head).text)
+```
+Locate
+```python
+# locate tag, then return several Element object.
+tag_line = html_tree.xpath('xpath expression')
+# locate tag's attribute, then return a Element oject.
+tag_line = html_tree.xpath('xpath expression/tag[@class="class_name"]')
+```
+Get tag's content
+```python
+# return a list
+tag_content = html_tree.xpath('xpath/tag[@attName]="value"/subtagname/text()')
+# return a string
+tag_content = html_tree.xpath('xpath/tag[@attName]="value"/subtagname/text()')[k]
+```
+#### xpath expression: 
+标签名目录+标签属性+子标签序号
+- /:locating start at root, or denote level
+- //: denote  spanning two levels or locate at any level
+- attr locate: experssion: **tag's xpath/tagname\[@attrName='attr value'\]**
+- index locate: **tag[@attrName="value"]/tag's sub\[k\]** , get tag's the kth subtag.(*index start at 1*)
+- get text: /text() or //text()
+- get attr: /@attrName
+
+
+
+#### DEPENDENT
+```bash
+pip install lxml
+```

@@ -8,6 +8,7 @@ if __name__ == "__main__":
         "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54"
     }
     response = requests.get(url=url,headers=header)
+    print(response.encoding)
     response.encoding = 'utf-8'
     chapter = bs(response.text,"lxml")
     # print(chapter.select('.book-mulu li'))
